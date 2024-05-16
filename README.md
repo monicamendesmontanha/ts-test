@@ -1,27 +1,24 @@
-# Smokeball TypeScript Coding Challenge
+
 
 ## System Requirements
 
-The coding challenge requires the following to be installed on your development machine;
+It requires the following to be installed on your development machine;
 * [nodejs](https://nodejs.org/en/download/) version 12 or above.
 * A [git](https://git-scm.com/downloads) client.
 
 ## Installation
+* Execute `npm install` in the terminal.
 
-1. Fork the `ts-test` repository to your personal github account.
-2. Clone the `ts-test` repository from your personal github account onto your development machine.
-3. Open a terminal and `cd` into the root directory of the `ts-test` repository.
-4. Execute `npm install` in the terminal.
+## Instructions
 
-## Challenge Instructions
-
-Your challenge is to implement the `getArnieQuotes()` function, which is exported from `./src/get-arnie-quotes.ts`.
+The challenge is to implement the `getArnieQuotes()` function, which is exported from `./src/get-arnie-quotes.ts`.
 
 The `getArnieQuotes()` function accepts an array of strings, with each string containing a URL. 
 
 The unit tests in `./src/get-arnie-quotes.spec.ts` will provide pre-defined URLs to the function and test your function's implementation. To run the unit tests, execute `npm test` in the terminal.
 
 The goal is to write an implementation of `getArnieQuotes()` that meets all requirements and passes all unit tests.
+
 ## Requirements
 `getArnieQuotes()` must perform the following on every passed in URL
 
@@ -33,21 +30,6 @@ Finally, the `getArnieQuotes()` function's return value must be a promise that r
 
 Note that for this challenge, the HTTP calls are mocked. You *must* use the provided `httpGet` function to perform your HTTP requests.
 
-## Tips
-* Only modify the `get-arnie-quotes.ts` file.
-* Properly define the `TResult` type.
-* You may introduce additional internal functions in `get-arnie-quotes.ts`
-* Exploring all of the code files may provide you with useful hints. 
-* Not all of the requirements are covered by the unit tests.
-* We are most impressed with readable code that works.
-* Keep your solution as simple as possible, input validation for `get-arnie-quotes()` is not required.
-* Other solutions to this puzzle are available on github and can be used to give you ideas, however, not all forked solutions are correct. 
-* Direct plagiarism results in an immediate failure.
-
-
-## Submission
-
-Once all unit tests pass, push your code upstream then send us the link to your github repo with your solution. Please do not create a pull request against the source repository.
 
 ## Docs
 
